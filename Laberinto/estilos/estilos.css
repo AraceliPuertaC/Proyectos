@@ -1,0 +1,41 @@
+body{
+    background-image: url("../imagens/laberinto.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.punto {
+    left:46%;
+    width: 45px;
+    height: 45px;
+    background-color: grey;  
+    position: absolute;
+    margin-top: 50px;
+    animation-name: resolverLaberinto;
+    animation-duration: 10s; 
+    animation-timing-function: linear; 
+    animation-iteration-count: infinite;
+}
+
+@keyframes resolverLaberinto {
+    0%   { transform: translate(0px, 0px); border-radius: 0%;}    
+    6%   { transform: translate(0px, 100px); border-radius: 50%;}
+    12%  { transform: translate(150px, 100px); }
+    18%  { transform: translate(150px, 180px); }
+    24%  { transform: translate(80px, 180px); }
+    30%  { transform: translate(80px, 330px); }
+    36%  { transform: translate(230px, 330px);}
+    42%  { transform: translate(230px, 480px); }
+    48%  { transform: translate(80px, 480px); }
+    54%  { transform: translate(80px, 400px); }
+    60%  { transform: translate(0px, 400px); }
+    66%  { transform: translate(0px, 480px); }
+    72%  { transform: translate(-80px, 480px); }
+    78%  { transform: translate(-70px, 330px); }
+    82%  { transform: translate(-150px, 330px); }
+    88%  { transform: translate(-150px, 400px); border-radius: 50%;}
+    94%  { transform: translate(-250px, 400px); border-radius: 0%;}
+    100% { transform: translate(0px, 0px); }
+    
+}
