@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fundamentos de Redes — One Page Semántica</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+
+
+  <header>
+  <div class="wrap">
+    <div class="brand">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <circle cx="12" cy="12" r="10" stroke="#5aa1ff" />
+        <path d="M6 12h12M12 6v12" stroke="#5aa1ff"/>
+      </svg>
+      <h1>Fundamentos de Redes — One Page</h1>
+    </div>
+
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true" />
+    <label for="nav-toggle" class="menu-button" aria-label="Abrir menú">
+      <span>Menú</span>
+      <svg class="chev" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2"/>
+      </svg>
+    </label>
+
+    <nav aria-label="Navegación principal" class="menu-panel">
+      <a href="#programa">Programa educativo</a>
+      <a href="#asignatura">Asignatura</a>
+      <a href="#proposito">Propósito</a>
+      <a href="#cuatrimestre">Cuatrimestre</a>
+      <a href="#unidades">Unidades y temas</a>
+      <a href="#multimedia">Multimedia</a>
+      <a href="#bibliografia">Bibliografía</a>
+    </nav>
+  </div>
+</header>
+
+
+  <main>
+    <section id="programa" aria-labelledby="h-programa">
+      <h2 id="h-programa">Programa educativo</h2>
+      <p class="meta">
+        Licenciatura en Ingeniería en Tecnologías de la Información e Innovación Digital (en competencias profesionales).
+      </p>
+    </section>
+
+    <section id="asignatura" aria-labelledby="h-asig">
+      <h2 id="h-asig">Nombre de la asignatura</h2>
+      <div class="grid cols-2">
+        <div>
+          <p><strong>Fundamentos de Redes</strong> (Clave: <code>E-FDR-1</code>)</p>
+        </div>
+        <div>
+          <aside aria-label="Ficha técnica" class="meta">
+            Tipo: Específica · Modalidad: Escolarizada · Horas/semana: 4 · Horas totales: 60 · Créditos: 3.75
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="proposito" aria-labelledby="h-prop">
+      <h2 id="h-prop">Propósito de aprendizaje</h2>
+      <p>
+        El estudiante diseñará e implementará redes de área local mediante la configuración de routers y switches, aplicando esquemas de direccionamiento IP para proporcionar acceso a recursos y servicios.
+      </p>
+    </section>
+
+ 
+    <section id="cuatrimestre" aria-labelledby="h-cuatri">
+      <h2 id="h-cuatri">Cuatrimestre</h2>
+      <p><strong>1º cuatrimestre</strong>.</p>
+    </section>
+
+    <section id="unidades" aria-labelledby="h-unidades">
+      <h2 id="h-unidades">Unidades de aprendizaje y temas</h2>
+
+
+      <article aria-labelledby="u1-title">
+        <h3 id="u1-title">I. Fundamentos de redes y conceptos Ethernet</h3>
+        <p class="meta">Propósito: modelar una red de datos según sus componentes y arquitectura.</p>
+        <ul>
+          <li>Conceptos de redes y elementos de una red</li>
+          <li>Topologías de red</li>
+          <li>Tipos de redes</li>
+          <li>Conexiones a Internet</li>
+          <li>Configuración básica de switches y terminales</li>
+          <li>Modelos de referencia OSI y TCP/IP</li>
+          <li>Tipos de cables, conectores y medios inalámbricos</li>
+          <li>Sistemas numéricos (binario y hexadecimal)</li>
+          <li>Estándares y topologías de la capa de enlace de datos</li>
+          <li>Protocolo Ethernet</li>
+          <li>Tendencias de redes</li>
+        </ul>
+      </article>
+
+      <article aria-labelledby="u2-title">
+        <h3 id="u2-title">II. Comunicación de redes y direccionamientos IP</h3>
+        <p class="meta">Propósito: determinar protocolos/estándares de capa de red y configurar routers (IPv4/IPv6).</p>
+        <ul>
+          <li>Protocolos y estándares de la capa de red (IPv4/IPv6)</li>
+          <li>Introducción al enrutamiento; MAC e IP</li>
+          <li>ARP</li>
+          <li>Configuración básica de ruteadores (nombre, contraseñas, interfaces, puerta de enlace, etc.)</li>
+          <li>Direccionamiento IPv4 (subredes, VLSM, planificación)</li>
+          <li>Direccionamiento IPv6 (tipos, prefijos, stateful/stateless, subredes)</li>
+          <li>ICMP</li>
+        </ul>
+      </article>
+
+   
+      <article aria-labelledby="u3-title">
+        <h3 id="u3-title">III. Comunicación de aplicaciones de red</h3>
+        <p class="meta">Propósito: seleccionar protocolos/servicios de capas superiores para interacción entre aplicaciones.</p>
+        <ul>
+          <li>Suite de protocolos; TCP y UDP</li>
+          <li>Capas de Aplicación, Presentación y Sesión</li>
+          <li>HTTP/HTTPS, DNS, DHCP, FTP/TFTP, SMTP/POP/IMAP, P2P, Telnet</li>
+          <li>Seguridad, confiabilidad y buenas prácticas en redes</li>
+        </ul>
+      </article>
+    </section>
+
+
+    <section id="multimedia" aria-labelledby="h-media">
+      <h2 id="h-media">Multimedia</h2>
+      <div class="media-grid">
+        <figure>
+          <img src="imagenes/topologia.png" alt="Esquema conceptual de topologías de red" />
+          <figcaption>Topologías de red (estrella, bus, anillo, malla) como base del diseño físico.</figcaption>
+        </figure>
+        <figure>
+          <img src="imagenes/ethernetsw.png" alt="Detalle de un switch Ethernet con puertos RJ-45" />
+          <figcaption>Switch Ethernet y medios de transmisión (UTP, fibra, Wi-Fi).</figcaption>
+        </figure>
+        <figure>
+         <div class="video-embed">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/cDNMe56I8LU?si=2qwPjqCFRJTev3Kn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+         </div>      
+          <figcaption>Video de Introducción a la Carrera Ingeniería en Tecnologías de la Información e Innovación Digital</figcaption>
+        </figure>
+      </div>
+
+    </section>
+
+    <section id="bibliografia" aria-labelledby="h-biblio">
+      <h2 id="h-biblio">Bibliografía y referencias</h2>
+      <aside>
+        <ul>
+          <li>Tanenbaum, A. S. <em>Computer Networks</em>, Prentice-Hall (2014).</li>
+          <li>Larry L. Peterson & Bruce S. Davie, <em>Computer Networks: A Systems Approach</em> (2021).</li>
+          <li>Ariganello, E., <em>Redes Cisco CCNA</em> (2021).</li>
+          <li>Cisco Networking Academy & Skills for All (consultas: abril 2024).</li>
+        </ul>
+        <p class="meta">Lista basada en el plan de asignatura.</p>
+      </aside>
+    </section>
+  </main>
+
+  <footer>
+    <small>“Fundamentos de Redes” — One-Page didáctica con etiquetas semánticas HTML5. Contenidos curriculares tomados del plan oficial.</small>
+  </footer>
+</body>
+</html>
