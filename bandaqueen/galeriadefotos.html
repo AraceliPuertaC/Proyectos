@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Fotos | Queen</title>
+    <link rel="stylesheet" type="text/css" href="estilos/estilos.css">
+    <meta name=" description" content="Conoce la historia de Queen, una de las bandas más influyentes del rock. Explora su discografía, álbumes, canciones destacadas y mucho más."> 
+    <meta name= "keywords" content="Queen, historia de Queen, discografía de Queen, álbumes de Queen, canciones destacadas de Queen">
+    <meta name="robots" content="index"> 
+    <link rel="icon" href="imagenes/iconqueen.png" type="image/png">
+   
+
+</head>
+<body>
+    	<header class="header">
+        <div class="menu">
+            <ul class="main-menu">
+                <img src="imagenes/logo.png" width="150" height="50" class="logo" alt="Logo">
+                <li><a href="index.html">INICIO</a></li>
+                 <li><a href="index.html">BIOGRAFÍA</a>
+                    <ul class="submenu">
+                        <li><a href="historia.html">Historia</a></li>
+                         <li><a href="integrantesdelabanda.html">Integrantes de la banda</a></li>
+                        <li><a href="evolucion.html">Evolución</a></li>
+                    </ul>
+
+                <li><a href="menu.html">DISCOGRAFÍA</a>
+                    <ul class="submenu">
+                      <li><a href="albumes.html">Álbumes</a></li> 
+                      <li><a href="cancionesdestacadas.html">Canciones Destacadas</a></li> 
+                       
+                    </ul>
+                </li>
+                <li><a href="index.html">MULTIMEDIA</a>
+                    <ul class="submenu">
+                        <li><a href="galeriadefotos.html">Galería de fotos</a></li>
+                        <li><a href="clipsdequeen.html">Clips de Queen</a></li>
+                          <li><a href="formulario.html">Club de Fans</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="integrantes-section">
+     <h1 class="titulog">Galería de Fotos</h1>
+    <div class="header">
+        <div class="gallery-container">
+        
+        <div class="gallery-grid">
+            <div class="gallery-item img-1" onclick="openModal('imagenes/portadaqueen.png', 'El baterista Roger Taylor, el cantante Freddie Mercury (1946 - 1991), el guitarrista Brian May y el bajista John Deacon de la banda de rock británica Queen posan en Londres, Inglaterra, en 1973.')">
+                <img src="imagenes/portadaqueen.png" alt="Portada">
+                <div class="image-caption">Portada Grupo Queen</div>
+            </div>
+            
+            <div class="gallery-item img-2" onclick="openModal('imagenes/queenbanda.png', 'Retrato grupal posado LR Roger Taylor, John Deacon, Freddie Mercury y Brian May (Foto de John Rodgers/Redferns)')">
+                <img src="imagenes/queenbanda.png" alt="Freddie Mercury">
+                <div class="image-caption">Freddie Mercury y la banda</div>
+            </div>
+            
+            <div class="gallery-item img-3" onclick="openModal('imagenes/queenenestudio.png', '1975: La banda de rock británica Queen : Roger Taylor, Freddie Mercury, Brian May y John Deacon posan para una publicidad de Electra Records todavía para promocionar su gira por Japón en 1975.')">
+                <img src="imagenes/queenenestudio.png" alt="Queen en estudio">
+                <div class="image-caption">Sesión de Retrato de Queen</div>
+            </div>
+            
+            <div class="gallery-item img-4" onclick="openModal('imagenes/queensesiondefto.png', 'Banda de rock británica Queen, Londres, 1973. El baterista Roger Taylor, el cantante Freddie Mercury (1946 - 1991), el guitarrista Brian May y el bajista John Deacon.')">
+                <img src="imagenes/queensesiondefto.png" alt="Sesion Fotográfica">
+                <div class="image-caption">Queen</div>
+            </div>
+            
+            <div class="gallery-item img-5" onclick="openModal('imagenes/queenfestival.png', 'El grupo de rock inglés Queen actuará en vivo en el escenario del Golden Rose Pop Festival en Montreux, Suiza, el 12 de mayo de 1984. Los miembros de la banda son, de izquierda a derecha, el bajista John Deacon, el cantante Freddie Mercury (1946-1991), el guitarrista Brian May y el baterista Roger Taylor.')">
+                <img src="imagenes/queenfestival.png" alt="Festival">
+                <div class="image-caption">Queen en vivo en el Golden Rose Pop Festival, Montreux</div>
+            </div>
+     
+            <div class="gallery-item img-6" onclick="openModal('imagenes/grabacioniwanttobreakfree.png', ' Queen grabando el videoclip de I Want to Break Free  1984 muestra a los miembros de la banda vestidos en travesti, imitando el estilo de un melodrama británico como la telenovela Coronation Street.')">
+                <img src="imagenes/grabacioniwanttobreakfree.png" alt="grabacioniwanttobreakfree">
+                <div class="image-caption">Queen durante las grabaciones de la canción I Want to Break Free </div>
+            </div>
+            
+
+            <div class="gallery-item img-7" onclick="openModal('imagenes/queenconreinaisabel.png', 'La banda de rock británica Queen posando con la actriz y doble de la reina Isabel II, Jeannette Charles, septiembre de 1974. ')">
+                <img src="imagenes/queenconreinaisabel.png" alt="Doble de Reina Isable">
+                <div class="image-caption">Queen y Pretendiente</div>
+            </div>
+            
+            <div class="gallery-item img-8" onclick="openModal('imagenes/queenenLA.png', 'La banda de rock británica Queen actúa en concierto con Freddie Mercury vistiendo un leotardo negro en el Forum el 22 de diciembre de 1977 en Inglewood, California')">
+                <img src="imagenes/queenenLA.png" alt="Performance LA">
+                <div class="image-caption">Queen Performance en Los Ángeles</div>
+            </div>
+            
+            <div class="gallery-item img-9" onclick="openModal('imagenes/queengrabacionbohemian.png', 'La banda británica Queen filmando la sección de apertura del vídeo musical de su sencillo Bohemian Rhapsody en Elstree Studios, Hertfordshire, Reino Unido, el 10 de noviembre de 1975.')">
+                <img src="imagenes/queengrabacionbohemian.png" alt="Bohemian Rhapsody">
+                <div class="image-caption">Queen durante las grabaciones de la canción Bohemian Rhapsody</div>
+            </div>
+     
+            <div class="gallery-item img-10" onclick="openModal('imagenes/queenreunion.png', 'Miembros del grupo de rock y pop Queen posando en una mesa al aire libre, Londres, Inglaterra, 8 de septiembre de 1976.')">
+                <img src="imagenes/queenreunion.png" alt="Queen Reunion">
+                <div class="image-caption">Queen durante una reunion</div>
+            </div>
+            
+            <div class="gallery-item img-11" onclick="openModal('imagenes/queenlondon.png', 'Queen posa durante una sesión de fotos para la portada de la revista de rock japonesa Music Life, estudio Roundhouse, Camden, Londres, Reino Unido, 7 de noviembre de 1975. John Deacon, Freddie Mercury y Roger Taylor')">
+                <img src="imagenes/queenlondon.png" alt="Queen en Sesion de fotos en London">
+                <div class="image-caption">Queen durante una sesion de foto para una portada</div>
+            </div>
+            
+            
+            <div class="gallery-item img-12" onclick="openModal('imagenes/queentourmagico.png', 'Freddie Mercury de la banda de rock británica Queen, actuando en el escenario durante el Magic Tour del grupo por Europa del 7 de junio al 9 de agosto de 1986.')">
+                <img src="imagenes/queentourmagico.png" alt="Tour Mágico">
+                <div class="image-caption">Tour Mágico</div>
+            </div>
+        </div>
+    </div>
+    
+   
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="expandedImage">
+        <div class="modal-caption" id="imageCaption"></div>
+    </div>
+    
+ <footer class="footer">
+    <div class="footer-container">
+        <div class="footer-brand">
+            <img src="imagenes/logo.png" width="150" height="50" alt="Queen" class="footer-logo">
+        </div>
+        <div class="footer-links">
+            <div class="link-column">
+                <h4>Biografía</h4>
+                <ul>
+                    <li><a href="historia.html">Historia</a></li>
+                    <li><a href="integrantesdelabanda.html">Integrantes</a></li>
+                    <li><a href="evolucion.html">Evolución</a></li>
+                </ul>
+            </div>
+            <div class="link-column">
+                <h4>Discografía</h4>
+                <ul>
+                    <li><a href="albumes.html">Álbumes</a></li>
+                    <li><a href="cancionesdestacadas.html">Canciones Destacadas</a></li>
+                </ul>
+            </div>
+            <div class="link-column">
+                <h4>Multimedia</h4>
+                <ul>
+                    <li><a href="galeriadefotos.html">Galería de Fotos</a></li>
+                    <li><a href="clipsdequeen.html">Clips de Queen</a></li>
+                    <li><a href="formulario.html">Club de Fans</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-social">
+            <h4>Redes Sociales</h4>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/share/1BxBBjmEQF/?mibextid=wwXIfr" class="social-icon" title="Facebook">
+                    <img src="imagenes/iconfacebook.png" alt="Facebook" width="24" height="24">
+                </a>
+                <a href="https://x.com/amor_acid0" class="social-icon" title="Twitter">
+                    <img src="imagenes/icontwitter.png" alt="Twitter" width="24" height="24"> 
+                </a>
+                <a href="https://www.instagram.com/a.crn._?igsh=MTZiYm80Y2VmcGxlcA%3D%3D&utm_source=qr" class="social-icon" title="Instagram">
+                    <img src="imagenes/iconinstragram.png" alt="Instagram" width="24" height="24">
+                </a>
+                <a href="https://www.youtube.com/" class="social-icon" title="YouTube">
+                    <img src="imagenes/iconyoutube.png" alt="YouTube" width="24" height="24">
+                </a>
+                <a href="https://open.spotify.com/user/p7uerta?si=3d1bf22c3fe34a71" class="social-icon" title="Spotify">
+                    <img src="imagenes/iconspotify.png" alt="Spotify" width="24" height="24">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2025 Queen | Todos los derechos reservados</p>
+    </div>
+</footer>
+       
+        <script src="galeriadefotos.js"></script>    
+    
+</body>
+</html>
